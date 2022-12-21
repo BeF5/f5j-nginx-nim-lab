@@ -310,4 +310,3 @@ integrations:
     ## https://kubernetes.io/docs/concepts/storage/storage-classes/#the-storageclass-resource
     storageClass: "local-storage"
     volumeName: ""
-

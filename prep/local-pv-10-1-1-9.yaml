@@ -11,7 +11,7 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   storageClassName: local-storage
   local:
-    path: /tmp/storage
+    path: /root/storage
   nodeAffinity:
     required:
       nodeSelectorTerms:
@@ -34,7 +34,7 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   storageClassName: local-storage
   local:
-    path: /tmp/storage
+    path: /root/storage
   nodeAffinity:
     required:
       nodeSelectorTerms:
@@ -57,7 +57,7 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   storageClassName: local-storage
   local:
-    path: /tmp/storage
+    path: /root/storage
   nodeAffinity:
     required:
       nodeSelectorTerms:
@@ -80,7 +80,7 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   storageClassName: local-storage
   local:
-    path: /tmp/storage
+    path: /root/storage
   nodeAffinity:
     required:
       nodeSelectorTerms:
@@ -103,7 +103,7 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   storageClassName: local-storage
   local:
-    path: /tmp/storage
+    path: /root/storage
   nodeAffinity:
     required:
       nodeSelectorTerms:
@@ -126,7 +126,7 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   storageClassName: local-storage
   local:
-    path: /tmp/storage
+    path: /root/storage
   nodeAffinity:
     required:
       nodeSelectorTerms:
