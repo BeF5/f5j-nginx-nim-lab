@@ -1,0 +1,17 @@
+apiVersion: k8s.nginx.org/v1
+kind: VirtualServer
+metadata:
+  name: nms-vs
+spec:
+  ingressClassName: nginx2
+  host: nms.example.com
+  upstreams:
+  - name: nms
+    service: apigw
+    port: 443
+    tls:
+      enable: true
+  routes:
+  - path: /
+    action:
+      pass: nms
